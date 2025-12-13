@@ -15,13 +15,13 @@ consultar notificaciones de un usuario en especifico y marcar notificaciones com
 - **Interfaz interactiva:** Menú de consola intuitivo para todas las operaciones
 
 ## 3. Estructura de la Base de Datos 
-![alt text][logo]
-[logo]: https://github.com/mxnueh/notification_system/blob/main/N_S%20diagram.png "Diagram Notification system"
+![alt text](https://github.com/mxnueh/notification_system/blob/main/N_S%20diagram.png "Diagram Notification system")
 
 ## 4. Requisitos
 - Python 3.14.0
 - SQL Server (cualquier versión compatible con ODBC Driver 17)
 - pyodbc
+
 
 **Run:**
 <pre>
@@ -29,8 +29,8 @@ consultar notificaciones de un usuario en especifico y marcar notificaciones com
 </pre>
 
 ## 5. Configuración
-⋅⋅⋅⋅* Crear el nombre de la base de datos en SQL Server:
-⋅⋅⋅⋅* **Configurar la conexión**: Edita los parámetros de conexión en el código:
+Crear el nombre de la base de datos en SQL Server:
+**Configurar la conexión**: Edita los parámetros de conexión en el código:
 
 ``` Python
    conn = pyodbc.connect(
